@@ -1,0 +1,34 @@
+.dashboard-container{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+.sidebar{
+    background-color: #fdae6431;
+    padding: 10px;
+    border-radius: 10px;
+    height: 85vh;
+}
+.sidebar li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #fdae649c;
+    padding: 5px 0px;
+}
+.sidebar li a {
+    text-decoration: none;
+    color: black;
+}
+.dashboard-left{
+    width: 220px;
+}
+.dashboard-right{
+    width: 100%;
+}
+.right-content{
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fdae6431;
+    border-radius: 10px;
+}
