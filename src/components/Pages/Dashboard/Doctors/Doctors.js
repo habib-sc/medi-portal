@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Chart from '../Chart/Chart';
 import './Doctors.css';
 
 const Doctors = () => {
     const [doctors, setDoctors] = useState();
+    
 
     useEffect( () => {
         fetch('/doctors.json')
@@ -10,9 +12,9 @@ const Doctors = () => {
         .then(data => setDoctors(data))
     }, []);
 
-    
     return (
         <div>
+            <Chart></Chart>
             <table id="table">
                 <thead>
                     <tr>

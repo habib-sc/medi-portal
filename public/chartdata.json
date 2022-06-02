@@ -1,0 +1,32 @@
+[
+    {
+        "month": "Mar",
+        "patients": 12200,
+        "fees": 12500
+    },
+    {
+        "month": "Apr",
+        "patients": 14800,
+        "fees": 44000
+    },
+    {
+        "month": "May",
+        "patients": 34200,
+        "fees": 25000
+    },
+    {
+        "month": "Jun",
+        "patients": 15500,
+        "fees": 25000
+    },
+    {
+        "month": "Jul",
+        "patients": 26600,
+        "fees": 52000
+    },
+    {
+        "month": "Aug",
+        "patients": 42500,
+        "fees": 75000
+    }
+]

@@ -1,0 +1,22 @@
+.chart-container{
+    padding-bottom: 15px;
+    width: 500px;
+    height: 200px;
+}
+.chart-item{
+    border: 1px solid #fdae6465;
+    border-radius: 10px;
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.chart-heading{
+    text-align: center;
+    margin-top: 0;
+}
+.charts{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
