@@ -1,9 +1,10 @@
 import React from 'react';
+import Header from '../../Shared/Header/Header';
 
 const Admin = () => {
     return (
         <div>
-            Admin
+            <Header></Header>
         </div>
     );
 };

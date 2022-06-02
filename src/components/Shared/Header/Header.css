@@ -1,0 +1,37 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fdae6431;
+    padding: 0 15px;
+}
+
+.header-title{
+    color: #FC5C62;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.navbar ul li {
+    list-style-type: none;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    background-color: #FDAD64;
+    color: white;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.avatar{
+    height: 50px;
+}
+
+.avatar img{
+    height: 100%;
+}
