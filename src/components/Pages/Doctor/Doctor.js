@@ -1,9 +1,12 @@
 import React from 'react';
+import Header from '../../Shared/Header/Header';
+import Dashboard from '../Dashboard/Dashboard';
 
 const Doctor = () => {
     return (
         <div>
-            Doctor
+            <Header></Header>
+            <Dashboard></Dashboard>
         </div>
     );
 };
