@@ -29,6 +29,6 @@
 .right-content{
     margin-top: 15px;
     padding: 10px;
-    background-color: #fdae6431;
+    border: 1px solid #fdae6475;
     border-radius: 10px;
 }

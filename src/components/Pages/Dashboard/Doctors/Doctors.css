@@ -1,0 +1,50 @@
+#table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #table td, #table th {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #table tr:hover {background-color: #fdae6431;}
+  
+  #table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #fdae6431;
+    color: black;
+}
+
+.delete-btn {
+    margin-left: 5px;
+    background-color: #fc5c614f;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: red;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.edit-btn{
+    background-color: #09ad1f36;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: green;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.edit-icon, .delete-icon{
+    height: 18px;
+}
+.actions-container{
+    display: flex;
+    align-items: center;
+}

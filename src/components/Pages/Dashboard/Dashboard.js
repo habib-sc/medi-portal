@@ -4,7 +4,6 @@ import './Dashboard.css';
 
 const Dashboard = () => {
     const { pathname } = useLocation();
-    console.log(pathname);
     return (
         <div className='dashboard-container'>
             <div className='dashboard-left'>
