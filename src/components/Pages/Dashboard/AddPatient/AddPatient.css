@@ -1,0 +1,21 @@
+.form-group{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.primary-btn{
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    background-color: #FDAD64;
+    color: white;
+    font-size: 16px;
+}
+
+.input-group input, textarea{
+    padding: 8px;
+    width: 92%;
+    border: 1px solid rgba(128, 128, 128, 0.466);
+    border-radius: 6px;
+}

@@ -69,7 +69,7 @@ const Chart = () => {
                 </div>
             </div>
             <div className='chart-item'>
-                <h2 className='chart-heading'>Patients Graph</h2>
+                <h2 className='chart-heading'>Patients Vs Fees Graph</h2>
                 <div className='chart-container'>
                     <ResponsiveContainer width="100%" height="100%">
                     <LineChart
