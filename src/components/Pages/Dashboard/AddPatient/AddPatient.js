@@ -5,6 +5,7 @@ const AddPatient = () => {
     return (
         <div>
             <form>
+                <h2>Add A Patient</h2>
                 <div className='form-group'>
                     <div className='input-group'>
                         <label htmlFor="name">Patient Name:</label> <br />

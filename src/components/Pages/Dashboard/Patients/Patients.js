@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { useLocation } from 'react-router-dom';
 import Chart from '../Chart/Chart';
 
 const Patients = () => {
     const [patients, setPatients] = useState();
+    const { pathname } = useLocation();
     
 
     useEffect( () => {
@@ -12,7 +14,9 @@ const Patients = () => {
     }, []);
     return (
         <div>
-            <Chart></Chart>
+            {pathname.includes('/dashboard/doctor') &&
+                <Chart></Chart>
+            }
             <table id="table">
                 <thead>
                     <tr>
