@@ -3,12 +3,13 @@ import React, { useEffect, useState } from 'react';
 const Staffs = () => {
     const [staffs, setStaffs] = useState();
     
-
+    // Loading Staffs 
     useEffect( () => {
         fetch('/staffs.json')
         .then(res => res.json())
         .then(data => setStaffs(data))
     }, []);
+
     return (
         <div>
             <table id="table">
@@ -23,6 +24,7 @@ const Staffs = () => {
                 
                 {staffs &&
                 <tbody>
+                    {/* mapping staffs */}
                     {
                         staffs.map(staff => <tr key={staff.id}>
                             <td>{staff.name}</td>

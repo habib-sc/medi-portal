@@ -1,3 +1,5 @@
+/* Login styles  */
+
 .login-container{
     height: 100vh;
     display: flex;
@@ -42,7 +44,4 @@
     color: white;
     font-size: 18px;
     cursor: pointer;
-}
-.login-heading{
-
 }

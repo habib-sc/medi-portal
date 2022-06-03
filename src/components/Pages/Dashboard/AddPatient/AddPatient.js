@@ -4,6 +4,7 @@ import './AddPatient.css';
 const AddPatient = () => {
     return (
         <div>
+            {/* Patient add form  */}
             <form>
                 <h2>Add A Patient</h2>
                 <div className='form-group'>

@@ -1,3 +1,5 @@
+/* Add patient styles  */
+
 .form-group{
     display: grid;
     grid-template-columns: repeat(3, 1fr);

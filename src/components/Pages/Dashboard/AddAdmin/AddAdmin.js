@@ -3,6 +3,7 @@ import React from 'react';
 const AddAdmin = () => {
     return (
         <div>
+            {/* Admin Add form  */}
             <form>
                 <h2>Add A Admin</h2>
                 <div className='form-group'>

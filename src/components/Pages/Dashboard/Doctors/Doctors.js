@@ -6,6 +6,7 @@ const Doctors = () => {
     const [doctors, setDoctors] = useState();
     
 
+    // Loading Doctors 
     useEffect( () => {
         fetch('/doctors.json')
         .then(res => res.json())
@@ -14,7 +15,10 @@ const Doctors = () => {
 
     return (
         <div>
+            {/* Chart  */}
             <Chart></Chart>
+
+            {/* doctors table  */}
             <table id="table">
                 <thead>
                     <tr>
@@ -27,6 +31,7 @@ const Doctors = () => {
                 
                 {doctors &&
                 <tbody>
+                    {/* Mappint doctors  */}
                     {
                         doctors.map(doctor => <tr key={doctor.id}>
                             <td>{doctor.name}</td>

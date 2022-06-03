@@ -14,6 +14,8 @@ const Chart = () => {
 
     return (
         <div className='charts'>
+
+            {/* Patients chart  */}
             <div className='chart-item'>
                 <h2 className='chart-heading'>Patients Graph</h2>
                 <div className='chart-container'>
@@ -41,6 +43,7 @@ const Chart = () => {
                 </div>
             </div>
 
+            {/* Fees Chart  */}
             <div className='chart-item'>
                 <h2 className='chart-heading'>Fees Graph</h2>
                 <div className='chart-container'>
@@ -68,6 +71,7 @@ const Chart = () => {
                 </div>
             </div>
             
+            {/* patients vs fees chart  */}
             <div className='chart-item'>
                 <h2 className='chart-heading'>Patients Vs Fees Graph</h2>
                 <div className='chart-container'>

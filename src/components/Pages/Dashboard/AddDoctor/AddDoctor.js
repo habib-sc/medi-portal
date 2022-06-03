@@ -3,6 +3,7 @@ import React from 'react';
 const AddDoctor = () => {
     return (
         <div>
+            {/* Doctor add form  */}
             <form>
                 <h2>Add A Doctor</h2>
                 <div className='form-group'>

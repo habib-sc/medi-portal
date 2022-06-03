@@ -6,12 +6,13 @@ const Patients = () => {
     const [patients, setPatients] = useState();
     const { pathname } = useLocation();
     
-
+    // Loading Patients 
     useEffect( () => {
         fetch('/patients.json')
         .then(res => res.json())
         .then(data => setPatients(data))
     }, []);
+
     return (
         <div>
             {pathname.includes('/dashboard/doctor') &&

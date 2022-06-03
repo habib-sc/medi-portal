@@ -6,6 +6,7 @@ const Login = () => {
 
     const navigate = useNavigate();
 
+    // Login Access 
     const access = {
         admin: {
             username: "admin",
@@ -21,6 +22,7 @@ const Login = () => {
         },
     }
 
+    // Handling Login 
     const handleLogin = e => {
         e.preventDefault();
         const inputUser = e.target.username.value;

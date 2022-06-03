@@ -19,6 +19,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Login></Login>}></Route>
 
+        {/* Admin routes  */}
         <Route path='/dashboard/admin' element={<Admin></Admin>}>
           <Route index element={<Doctors></Doctors>}></Route>
           <Route path='/dashboard/admin/doctors' element={<Doctors></Doctors>}></Route>
@@ -30,12 +31,13 @@ function App() {
         </Route>
 
 
+        {/* Doctor routes  */}
         <Route path='/dashboard/doctor' element={<Doctor></Doctor>}>
           <Route index element={<Patients></Patients>}></Route>
           <Route path='/dashboard/doctor/patients' element={<Patients></Patients>}></Route>
         </Route>
 
-
+        {/* Staff routes  */}
         <Route path='/dashboard/staff' element={<Staff></Staff>}>
           <Route index element={<Patients></Patients>}></Route>
           <Route path='/dashboard/staff/patients' element={<Patients></Patients>}></Route>

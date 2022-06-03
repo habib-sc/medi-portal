@@ -5,8 +5,7 @@ import './Dashboard.css';
 const Dashboard = () => {
     const { pathname } = useLocation();
 
-    let activeClassName = "active-sidebar-item";
-
+    // Acitive style for menu 
     let activeStyle = {
         backgroundColor: "#FDAD64",
         padding: '5px',
@@ -19,6 +18,7 @@ const Dashboard = () => {
         <div className='dashboard-container'>
             <div className='dashboard-left'>
                 <ul className='sidebar'>
+
                     {/* Admin route item  */}
                     { pathname.includes('/dashboard/admin') &&
                     <>
@@ -72,9 +72,9 @@ const Dashboard = () => {
                             <span>Add Admin</span>
                             </NavLink>
                         </li>
-
-
                     </>}
+
+
 
                     {/* Doctor route item  */}
                     { pathname.includes('/dashboard/doctor') &&
@@ -88,6 +88,8 @@ const Dashboard = () => {
                         </NavLink>
                         </li>
                     </>}
+
+
 
                     {/* Staff route item  */}
                     { pathname.includes('/dashboard/staff') &&

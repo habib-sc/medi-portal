@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Admins = () => {
     const [admins, setAdmins] = useState();
     
-
+    // Loading doctors 
     useEffect( () => {
         fetch('/doctors.json')
         .then(res => res.json())
@@ -22,6 +22,7 @@ const Admins = () => {
                 
                 {admins &&
                 <tbody>
+                    {/* Mapping doctors  */}
                     {
                         admins.map(admin => <tr key={admin.id}>
                             <td>{admin.name}</td>
