@@ -67,6 +67,7 @@ const Chart = () => {
                     </ResponsiveContainer>
                 </div>
             </div>
+            
             <div className='chart-item'>
                 <h2 className='chart-heading'>Patients Vs Fees Graph</h2>
                 <div className='chart-container'>

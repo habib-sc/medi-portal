@@ -1,12 +1,11 @@
 .chart-container{
-    padding-bottom: 15px;
-    width: 500px;
+    padding: 0 5px 15px 0px;
     height: 200px;
+
 }
 .chart-item{
     border: 1px solid #fdae6465;
     border-radius: 10px;
-    width: 500px;
     padding: 10px;
     margin-bottom: 20px;
 }
@@ -15,7 +14,9 @@
     margin-top: 0;
 }
 .charts{
-    display: flex;
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: space-between;
     align-items: center;
     gap: 10px;
