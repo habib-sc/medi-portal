@@ -1,10 +1,10 @@
 import React from 'react';
 
-const AddStaff = () => {
+const AddAdmin = () => {
     return (
         <div>
-             <form>
-                <h2>Add A Staff</h2>
+            <form>
+                <h2>Add A Admin</h2>
                 <div className='form-group'>
                     <div className='input-group'>
                         <label htmlFor="username">Username:</label> <br />
@@ -15,7 +15,7 @@ const AddStaff = () => {
                         <input type="text" />
                     </div>
                     <div className='input-group'>
-                        <label htmlFor="name">Staff Name:</label> <br />
+                        <label htmlFor="name">Admin Name:</label> <br />
                         <input type="text" />
                     </div>
                     <div className='input-group'>
@@ -24,10 +24,6 @@ const AddStaff = () => {
                     </div>
                     <div className='input-group'>
                         <label htmlFor="email">Email:</label> <br />
-                        <input type="text" />
-                    </div>
-                    <div className='input-group'>
-                        <label htmlFor="designation">Designation:</label> <br />
                         <input type="text" />
                     </div>
                     <div className='input-group'>
@@ -45,4 +41,4 @@ const AddStaff = () => {
     );
 };
 
-export default AddStaff;
+export default AddAdmin;

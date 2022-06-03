@@ -1,6 +1,8 @@
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Admin from './components/Pages/Admin/Admin';
+import AddAdmin from './components/Pages/Dashboard/AddAdmin/AddAdmin';
+import AddDoctor from './components/Pages/Dashboard/AddDoctor/AddDoctor';
 import AddPatient from './components/Pages/Dashboard/AddPatient/AddPatient';
 import AddStaff from './components/Pages/Dashboard/AddStaff/AddStaff';
 import Admins from './components/Pages/Dashboard/Admins/Admins';
@@ -23,6 +25,8 @@ function App() {
           <Route path='/dashboard/admin/staffs' element={<Staffs></Staffs>}></Route>
           <Route path='/dashboard/admin/admins' element={<Admins></Admins>}></Route>
           <Route path='/dashboard/admin/add-staff' element={<AddStaff></AddStaff>}></Route>
+          <Route path='/dashboard/admin/add-doctor' element={<AddDoctor></AddDoctor>}></Route>
+          <Route path='/dashboard/admin/add-admin' element={<AddAdmin></AddAdmin>}></Route>
         </Route>
 
 
