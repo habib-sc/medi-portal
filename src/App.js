@@ -2,8 +2,10 @@ import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Admin from './components/Pages/Admin/Admin';
 import AddPatient from './components/Pages/Dashboard/AddPatient/AddPatient';
+import Admins from './components/Pages/Dashboard/Admins/Admins';
 import Doctors from './components/Pages/Dashboard/Doctors/Doctors';
 import Patients from './components/Pages/Dashboard/Patients/Patients';
+import Staffs from './components/Pages/Dashboard/Staffs/Staffs';
 import Doctor from './components/Pages/Doctor/Doctor';
 import Login from './components/Pages/Login/Login';
 import Staff from './components/Pages/Staff/Staff';
@@ -17,6 +19,8 @@ function App() {
         <Route path='/dashboard/admin' element={<Admin></Admin>}>
           <Route index element={<Doctors></Doctors>}></Route>
           <Route path='/dashboard/admin/doctors' element={<Doctors></Doctors>}></Route>
+          <Route path='/dashboard/admin/staffs' element={<Staffs></Staffs>}></Route>
+          <Route path='/dashboard/admin/admins' element={<Admins></Admins>}></Route>
         </Route>
 
 
