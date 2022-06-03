@@ -9,15 +9,15 @@ const Login = () => {
     const access = {
         admin: {
             username: "admin",
-            password: "123456"
+            password: "admin"
         },
         doctor: {
             username: "doctor",
-            password: "123456"
+            password: "doctor"
         },
         staff: {
             username: "staff",
-            password: "123456"
+            password: "staff"
         },
     }
 
