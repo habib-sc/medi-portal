@@ -12,7 +12,7 @@ const Dashboard = () => {
         padding: '5px',
         color: 'white',
         borderRadius: '6px',
-        width: '100%'
+        width: '94%'
       };
 
     return (
